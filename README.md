@@ -1,106 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Engineer Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .project {
-            margin-bottom: 20px;
-            padding: 15px;
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .skills, .technologies, .results {
-            margin-top: 10px;
-            padding-left: 20px;
-        }
-    </style>
-</head>
-<body>
+# Data Engineer Portfolio  
 
-<h1>Data Engineer Portfolio</h1>
+Welcome to my portfolio! This repository showcases a collection of data science and data engineering projects that demonstrate my skills in extracting insights from data, solving real-world problems, and making data-driven decisions. Below, you'll find project details and their associated files.
 
-<p><strong>Portfolio Projects</strong></p>
-<p>In my portfolio, you'll find a collection of diverse data science and data analysis projects that showcase my skills in extracting valuable insights from data, solving real-world problems, and making data-driven decisions. Below, you will find the projects along with their details and files.</p>
+---
 
-<h2>Table of Contents</h2>
-<ul>
-    <li><a href="#web-scraping">Web Scraping</a></li>
-</ul>
+## Table of Contents  
 
-<h3 id="web-scraping">1. Data Science Using Python</h3>
-<div class="project">
-    <p><strong>Public Repository:</strong> <a href="https://github.com/arunabiz/amazon-monitors-web-scraping.git" target="_blank">https://github.com/arunabiz/amazon-monitors-web-scraping.git</a></p>
+1. [Web Scraping: Amazon PC Monitors Data](#web-scraping-amazon-pc-monitors-data)  
 
-    <p><strong>Project:</strong> Amazon PC Monitors Data Web Scrape</p>
+---
 
-    <p><strong>Description:</strong> This project involves scraping computer monitor data from Amazon.com. Details scraped include title, price, rating, reviews, and availability. The data was cleansed to remove sponsored products and out-of-stock items, then saved into a CSV file. The file <code>amazon_web_scraping.ipynb</code> was used for initial testing by scraping a single product, while <code>amazon_web_scraping_final.ipynb</code> contains the final notebook used to scrape all relevant product details.</p>
+## Web Scraping: Amazon PC Monitors Data  
 
-    <p><strong>Goal:</strong> To scrape PC monitor titles, prices, ratings, and review counts available on Amazon.</p>
+**Public Repository**: [Amazon Monitors Web Scraping](https://github.com/arunabiz/amazon-monitors-web-scraping.git)  
 
-    <div class="skills">
-        <strong>Skills:</strong>
-        <ul>
-            <li>Data Cleaning</li>
-            <li>Data Analysis</li>
-            <li>Data Visualization</li>
-            <li>Confusion Matrix</li>
-            <li>Balancing Data</li>
-            <li>Data Scaling</li>
-            <li>Machine Learning</li>
-            <li>Predictive Models</li>
-        </ul>
-    </div>
+### Project Overview  
+This project involves scraping data about computer monitors from Amazon.com, including details such as title, price, rating, reviews, and availability.  
 
-    <div class="technologies">
-        <strong>Technologies:</strong>
-        <ul>
-            <li>Python</li>
-            <li>Pandas</li>
-            <li>NumPy</li>
-            <li>Matplotlib</li>
-            <li>Histplot</li>
-            <li>Correlation Heatmap</li>
-            <li>Confusion Matrix</li>
-            <li>Classification Report</li>
-            <li>Logistic Regression</li>
-            <li>Decision Tree</li>
-            <li>Random Forest</li>
-            <li>K-Neighbors Classifier</li>
-            <li>GaussianNB</li>
-            <li>Support Vector Machine</li>
-            <li>SMOTE</li>
-            <li>GridSearch</li>
-        </ul>
-    </div>
+- The data was cleansed to remove sponsored products and out-of-stock items.  
+- The final data was saved in a CSV file for further analysis.  
+- Two key notebooks are included:
+  - `amazon_web_scraping.ipynb`: Initial notebook for scraping a single product.  
+  - `amazon_web_scraping_final.ipynb`: Final notebook for scraping all relevant product details.  
 
-    <div class="results">
-        <strong>Results:</strong>
-        <p>Predicted customer return behavior using machine learning models trained on feature-rich data, achieving an accuracy of 97% in determining potential churn.</p>
-    </div>
-</div>
+**Goal**: To collect information about available PC monitors, including titles, prices, ratings, and the number of reviews.  
 
-<p><strong>THANKS FOR YOUR ATTENTION!</strong></p>
+### Skills Demonstrated  
+- **Data Cleaning**: Ensuring data accuracy by filtering out irrelevant entries.  
+- **Data Analysis**: Exploring and interpreting the collected data.  
+- **Data Visualization**: Creating visualizations for insights (e.g., heatmaps, histograms).  
+- **Machine Learning**: Training predictive models to analyze customer behavior.  
 
-</body>
-</html>
+### Technologies Used  
+- **Programming**: Python  
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn (Histplot, Correlation Heatmap)  
+- **Machine Learning Tools**: Logistic Regression, Decision Trees, Random Forests, K-Neighbors Classifier, GaussianNB, Support Vector Machine (SVM), SMOTE, GridSearch  
+- **Metrics**: Confusion Matrix, Classification Report  
+
+### Results  
+By building machine learning models using feature-rich data, I successfully predicted customer return behavior with 97% accuracy, identifying potential customer churn.  
+
+---
+
+### Thank You for Your Attention!  
+Feel free to explore the repository and reach out if you have any questions or feedback!  
