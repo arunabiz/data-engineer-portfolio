@@ -26,6 +26,7 @@ This project involves scraping data about computer monitors from Amazon.com, inc
 **Goal**: To collect information about available PC monitors, including titles, prices, ratings, and the number of reviews.  
 
 ### Skills Demonstrated  
+- **Web Scraping**: Ensuring data accuracy by filtering out irrelevant entries.
 - **Data Cleaning**: Ensuring data accuracy by filtering out irrelevant entries.  
 - **Data Analysis**: Exploring and interpreting the collected data.  
 - **Data Visualization**: Creating visualizations for insights (e.g., heatmaps, histograms).  
@@ -33,9 +34,8 @@ This project involves scraping data about computer monitors from Amazon.com, inc
 
 ### Technologies Used  
 - **Programming**: Python  
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn (Histplot, Correlation Heatmap)  
-- **Machine Learning Tools**: Logistic Regression, Decision Trees, Random Forests, K-Neighbors Classifier, GaussianNB, Support Vector Machine (SVM), SMOTE, GridSearch  
-- **Metrics**: Confusion Matrix, Classification Report  
+- **Libraries**: Pandas, Beautiful Soup, Requests  
+- **Machine Learning Tools**: Web Scraping  
 
 ### Results  
 By building machine learning models using feature-rich data, I successfully predicted customer return behavior with 97% accuracy, identifying potential customer churn.  
