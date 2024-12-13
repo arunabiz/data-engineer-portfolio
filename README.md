@@ -6,7 +6,7 @@ In my portfolio, you'll find a collection of diverse data science and data analy
 <h2>Table of Contents</h2>
 Web Scraping
 
-1. Data Science using Python
+<h3>1. Data Science using Python</h3>
 Public Repository: https://github.com/arunabiz/amazon-monitors-web-scraping.git
 
 Amazon PC moniotors data web scrape
