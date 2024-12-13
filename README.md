@@ -17,28 +17,31 @@ Welcome to my portfolio! This repository showcases a collection of data science 
 ### Project Overview  
 This project involves scraping data about computer monitors from Amazon.com, including details such as title, price, rating, reviews, and availability.  
 
-- The data was cleansed to remove sponsored products and out-of-stock items.  
-- The final data was saved in a CSV file for further analysis.  
+- The raw data was collected using web scraping techniques.
+- The data was cleaned to remove sponsored products and out-of-stock items.
+- The cleaned data was saved into a CSV file for further use and analysis.
 - Two key notebooks are included:
-  - `amazon_web_scraping.ipynb`: Initial notebook for scraping a single product.  
-  - `amazon_web_scraping_final.ipynb`: Final notebook for scraping all relevant product details.  
+  - `amazon_web_scraping.ipynb`: Initial notebook to test web scraping on a single product.  
+  - `amazon_web_scraping_final.ipynb`: Finalized notebook to scrape details for all relevant products. 
 
-**Goal**: To collect information about available PC monitors, including titles, prices, ratings, and the number of reviews.  
-
+**Goal**: To create a dataset of available PC monitors, focusing on key attributes such as title, price, ratings, and customer reviews.
+  
 ### Skills Demonstrated  
-- **Web Scraping**: Ensuring data accuracy by filtering out irrelevant entries.
-- **Data Cleaning**: Ensuring data accuracy by filtering out irrelevant entries.  
-- **Data Analysis**: Exploring and interpreting the collected data.  
-- **Data Visualization**: Creating visualizations for insights (e.g., heatmaps, histograms).  
-- **Machine Learning**: Training predictive models to analyze customer behavior.  
+- **Web Scraping**: Extracting data from dynamic web pages using automation.
+- **Data Cleaning**: Removing irrelevant or incomplete entries for a more accurate dataset.
+- **Data Analysis**: Interpreting trends in monitor prices, ratings, and reviews 
+- **Data Visualization**: Summarizing the data using charts and graphs for better insights.
 
 ### Technologies Used  
 - **Programming**: Python  
-- **Libraries**: Pandas, Beautiful Soup, Requests  
-- **Machine Learning Tools**: Web Scraping  
+- **Libraries**:
+  - Pandas: For data manipulation and analysis.
+  - Beautiful Soup: For parsing and extracting HTML content.
+  - Requests: For sending HTTP requests to Amazon.
+- **Visualization Tools**: Matplotlib and Seaborn for creating visual insights.
 
 ### Results  
-By building machine learning models using feature-rich data, I successfully predicted customer return behavior with 97% accuracy, identifying potential customer churn.  
+The project successfully scraped and analyzed data on PC monitors from Amazon. While machine learning was not a part of this specific project, the processed dataset is well-prepared for potential predictive modeling or deeper analysis in the future.  
 
 ---
 
