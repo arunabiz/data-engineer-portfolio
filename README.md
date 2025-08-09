@@ -46,19 +46,38 @@ The project successfully scraped and analyzed data on PC monitors from Amazon. W
 
 ---
 
-## Web Scraping: Amazon PC Monitors Data  
+## ML and AI: Credit Scoring with Machine Learning and Uncertainty Estimation
 
 **Public Repository**: [Credit Scoring with Machine Learning and Uncertainty Estimation](https://github.com/arunabiz/Credit-Scoring-Using-Machine-Learning-Techniques.git)  
 
-### Project Overview  
+### Project Overview
+A machine learning-based **credit scoring system** that predicts the likelihood of loan default using the **German Credit Dataset (numeric version)**. The project combines **ensemble models** with **uncertainty estimation** and a **human-in-the-loop framework** to make safer, more reliable financial decisions.
 
-**Goal**: 
+**Goal**: To develop a **highly accurate** and **risk-aware** credit scoring model that Improves predictive performance over traditional scoring methods, Quantifies model uncertainty to avoid risky automated decisions and Defers low-confidence predictions to human analysts for review.
   
-### Skills Demonstrated  
+### Skills Demonstrated
+- **Data Preprocessing:** Feature scaling, encoding, and stratified sampling.
+- **Machine Learning Modeling:** Logistic Regression, Decision Tree, Random Forest, XGBoost.
+- **Hyperparameter Tuning:** GridSearchCV for optimal model parameters.
+- **Uncertainty Estimation:** Deep Ensembles, Monte Carlo Dropout.
+- **Model Interpretability:** SHAP values for feature importance analysis.
+- **Risk Analysis:** Coverage–Risk trade-off evaluation.
+- **Human-in-the-Loop Systems:** Rejection mechanism for decision safety.
 
 ### Technologies Used  
+- **Python** (Pandas, NumPy, Scikit-learn, XGBoost, LightGBM)
+- **TensorFlow/Keras** (for Monte Carlo Dropout model)
+- **Matplotlib / Seaborn** (visualizations)
+- **SHAP** (model explainability)
+- **Jupyter Notebook** (experimentation and documentation)
 
-### Results  
+### Results
+- **Best Model:** XGBoost  
+- **Accuracy:** 88.4%  
+- **ROC-AUC:** 0.92  
+- **Top Predictors:** Repayment history, income, and age.  
+- **Risk Control:** Rejection mechanism reduced risky automated decisions by deferring uncertain cases.
+- **Interpretability:** SHAP analysis confirmed the model uses multiple relevant features, improving trust and transparency.
 
 ---
 
