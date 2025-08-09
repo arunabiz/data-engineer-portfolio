@@ -7,7 +7,7 @@ Welcome to my portfolio! This repository showcases a collection of data science 
 ## Table of Contents  
 
 1. [Web Scraping: Amazon PC Monitors Data](#web-scraping-amazon-pc-monitors-data)
-2. [ML and AI: Credit Scoring with Machine Learning and Uncertainty Estimation] (#Credit-scoring-with-machine-learning-and-uncertainty-estimation)
+2. [ML and AI: Credit Scoring with Machine Learning and Uncertainty Estimation](#ml-and-ai-credit-scoring-with-machine-learning-and-uncertainty-estimation)
 
 ---
 
