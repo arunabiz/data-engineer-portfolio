@@ -6,7 +6,8 @@ Welcome to my portfolio! This repository showcases a collection of data science 
 
 ## Table of Contents  
 
-1. [Web Scraping: Amazon PC Monitors Data](#web-scraping-amazon-pc-monitors-data)  
+1. [Web Scraping: Amazon PC Monitors Data](#web-scraping-amazon-pc-monitors-data)
+2. [ML and AI: Credit Scoring with Machine Learning and Uncertainty Estimation] (#Credit-scoring-with-machine-learning-and-uncertainty-estimation)
 
 ---
 
@@ -42,6 +43,22 @@ This project involves scraping data about computer monitors from Amazon.com, inc
 
 ### Results  
 The project successfully scraped and analyzed data on PC monitors from Amazon. While machine learning was not a part of this specific project, the processed dataset is well-prepared for potential predictive modeling or deeper analysis in the future.  
+
+---
+
+## Web Scraping: Amazon PC Monitors Data  
+
+**Public Repository**: [Credit Scoring with Machine Learning and Uncertainty Estimation](https://github.com/arunabiz/Credit-Scoring-Using-Machine-Learning-Techniques.git)  
+
+### Project Overview  
+
+**Goal**: 
+  
+### Skills Demonstrated  
+
+### Technologies Used  
+
+### Results  
 
 ---
 
