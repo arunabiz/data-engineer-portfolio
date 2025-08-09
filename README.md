@@ -1,4 +1,4 @@
-# Data Engineer Portfolio  
+# Data Science Portfolio  
 
 Welcome to my portfolio! This repository showcases a collection of data science and data engineering projects that demonstrate my skills in extracting insights from data, solving real-world problems, and making data-driven decisions. Below, you'll find project details and their associated files.
 
